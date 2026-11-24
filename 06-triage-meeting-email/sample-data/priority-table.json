@@ -1,0 +1,11 @@
+[
+  { "key": "PROJ-201", "summary": "Delivery pacing stalls overnight", "status": "In Progress", "owner": "Engineer A",
+    "nextStep": "Fix in code review", "blocker": false, "needsDecision": false, "resolvedAt": null,
+    "url": "https://issues.example.com/browse/PROJ-201" },
+  { "key": "PROJ-202", "summary": "Report totals mismatch", "status": "Waiting for Info", "owner": "Engineer B",
+    "nextStep": "Waiting on sample export", "blocker": false, "needsDecision": false, "resolvedAt": null,
+    "url": "https://issues.example.com/browse/PROJ-202" },
+  { "key": "PROJ-203", "summary": "Pixel debugger timeout", "status": "Closed", "owner": "Engineer A",
+    "nextStep": null, "blocker": false, "needsDecision": false, "resolvedAt": "2026-10-15T00:00:00Z",
+    "url": "https://issues.example.com/browse/PROJ-203" }
+]

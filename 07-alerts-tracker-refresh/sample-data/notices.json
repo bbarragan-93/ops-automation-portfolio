@@ -1,0 +1,8 @@
+[
+  { "threadId": "th-1", "postedAt": "2026-11-20T18:00:00Z", "text": "Heads up: reporting delayed for yesterday's data", "issueKey": "PROJ-301",
+    "replies": [] , "threadUrl": "https://chat.example.com/archives/your-channel/th-1" },
+  { "threadId": "th-2", "postedAt": "2026-11-18T18:00:00Z", "text": "Partner sync failing for some segments", "issueKey": null,
+    "replies": [{ "text": "All clear, sync recovered", "at": "2026-11-19T20:00:00Z" }], "threadUrl": "https://chat.example.com/archives/your-channel/th-2" },
+  { "threadId": "th-3", "postedAt": "2026-11-22T18:00:00Z", "text": "UI login intermittently slow", "issueKey": "PROJ-302",
+    "replies": [], "threadUrl": "https://chat.example.com/archives/your-channel/th-3" }
+]

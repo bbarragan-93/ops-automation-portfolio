@@ -1,0 +1,11 @@
+[
+  { "id": "T-2001", "name": "Line item stuck in pending after edit", "url": "https://tracker.example.com/task/T-2001",
+    "requester": "Requester One", "client": "Sample Brand Co", "feature": "line-item-editor",
+    "symptom": "line item stuck pending", "confirmed": true, "created_at": "2026-11-18T17:00:00Z", "completed": false },
+  { "id": "T-2002", "name": "Edits not saving on line items", "url": "https://tracker.example.com/task/T-2002",
+    "requester": "Requester Two", "client": "Example Outdoor", "feature": "line-item-editor",
+    "symptom": "line item stuck pending", "confirmed": false, "created_at": "2026-11-20T19:00:00Z", "completed": false },
+  { "id": "T-2003", "name": "Logo looks blurry in preview", "url": "https://tracker.example.com/task/T-2003",
+    "requester": "Requester Three", "client": "Demo Foods", "feature": "creative-preview",
+    "symptom": "blurry preview", "confirmed": false, "created_at": "2026-11-21T18:00:00Z", "completed": false }
+]

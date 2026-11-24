@@ -1,0 +1,10 @@
+[
+  { "id": "T-3001", "name": "Audience size looks low", "url": "https://tracker.example.com/task/T-3001", "section": "Waiting on Requester",
+    "assignee": "Agent A", "last_activity_at": "2026-11-13T18:00:00Z", "due_on": null, "completed": false },
+  { "id": "T-3002", "name": "Need help with a data upload", "url": "https://tracker.example.com/task/T-3002", "section": "New Requests",
+    "assignee": null, "last_activity_at": "2026-11-23T18:00:00Z", "due_on": null, "completed": false },
+  { "id": "T-3003", "name": "Bid multiplier question", "url": "https://tracker.example.com/task/T-3003", "section": "Waiting on Engineering",
+    "assignee": "Agent B", "last_activity_at": "2026-11-20T18:00:00Z", "due_on": "2026-11-21", "completed": false },
+  { "id": "T-3004", "name": "Fresh request", "url": "https://tracker.example.com/task/T-3004", "section": "In Progress",
+    "assignee": "Agent C", "last_activity_at": "2026-11-24T15:00:00Z", "due_on": null, "completed": false }
+]

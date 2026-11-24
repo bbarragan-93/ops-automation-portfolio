@@ -1,0 +1,32 @@
+{
+  "form": "Support Request Intake",
+  "project": "YOUR_PROJECT_ID",
+  "principles": [
+    "Ask only what the first responder needs to act without a follow-up question",
+    "Every required field maps to a KPI or a routing decision",
+    "Prefer dropdowns over free text where reporting depends on the value",
+    "Keep it short: defer optional dimensions until the data proves they're needed"
+  ],
+  "fields": [
+    { "name": "Summary", "type": "text", "required": true, "help": "One line: what is wrong and where" },
+    { "name": "Request Type", "type": "enum", "required": true, "routesTo": "section",
+      "options": ["Delivery & Pacing", "Reporting & Measurement", "Tracking & Conversions", "Creative & Ad Tags",
+                  "Audiences & Data", "Account Access & Setup", "API & Integrations", "General Question"] },
+    { "name": "Priority", "type": "enum", "required": true,
+      "options": ["Urgent: live spend or delivery blocked", "High: client-facing, workaround exists", "Normal", "Low: question / how-to"] },
+    { "name": "Client / Account", "type": "enum", "required": true, "options": ["Example Client A", "Example Client B", "Other (type below)"],
+      "note": "A monthly job reviews 'Other' entries and proposes additions to the list" },
+    { "name": "Account ID", "type": "text", "required": false },
+    { "name": "Steps tried / evidence", "type": "longtext", "required": true, "help": "Screenshots, IDs, time window, expected vs actual" },
+    { "name": "Existing engineering ticket", "type": "text", "required": false }
+  ],
+  "closeoutFields": [
+    { "name": "Complete at Submission?", "type": "enum", "options": ["Yes", "No"], "kpi": "intake quality" },
+    { "name": "Repeat Issue?", "type": "enum", "options": ["Yes", "No"], "kpi": "repeat rate" },
+    { "name": "Escalated to Engineering?", "type": "enum", "options": ["Yes", "No"], "kpi": "escalation rate" },
+    { "name": "Training Need", "type": "enum", "options": ["None", "Product area A", "Product area B"] },
+    { "name": "Automation Idea", "type": "enum", "options": ["None", "Add to Known Fixes", "Self-serve tooling", "Alerting"] },
+    { "name": "First Response At", "type": "datetime", "kpi": "first-response SLA", "setBy": "automation" }
+  ],
+  "sections": ["New Requests", "In Progress", "Waiting on Requester", "Waiting on Engineering", "Done"]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "ops-automation-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sanitized recreations of technical-operations workflow automations",
+  "license": "MIT",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "demo": "for f in 01-sla-early-warning/sla_monitor.js 02-escalation-sync/escalation_sync.js 03-stale-request-nudge/stale_nudge.js 04-repeat-issue-detection/repeat_issues.js 06-triage-meeting-email/triage_email.js 07-alerts-tracker-refresh/alerts_refresh.js; do node $f --now 2026-11-24T18:30:00Z; done"
+  }
+}

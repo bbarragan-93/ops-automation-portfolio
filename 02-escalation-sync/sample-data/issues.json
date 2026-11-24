@@ -1,0 +1,8 @@
+[
+  { "key": "PROJ-101", "summary": "Line item edits leave status pending", "status": "In Progress",
+    "priority": "High", "labels": ["line-item-editor"], "updated": "2026-11-10T00:00:00Z",
+    "url": "https://issues.example.com/browse/PROJ-101" },
+  { "key": "PROJ-102", "summary": "Preview renderer downsamples images", "status": "Backlog",
+    "priority": "Low", "labels": ["creative-preview"], "updated": "2026-11-01T00:00:00Z",
+    "url": "https://issues.example.com/browse/PROJ-102" }
+]

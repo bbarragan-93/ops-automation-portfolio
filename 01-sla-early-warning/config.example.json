@@ -1,0 +1,15 @@
+{
+  "projectId": "YOUR_PROJECT_ID",
+  "slackChannel": "#your-channel",
+  "timeZone": "America/Los_Angeles",
+  "businessHours": { "startHour": 9, "endHour": 17 },
+  "holidays": ["2026-12-25", "2027-01-01"],
+  "targets": {
+    "firstResponse": { "limitMinutes": 60, "warnAtMinutes": 40 },
+    "triaged":       { "limitMinutes": 120, "warnAtMinutes": 90, "untriagedSection": "New Requests" }
+  },
+  "supportTeam": ["Agent A", "Agent B", "Agent C"],
+  "slackDirectory": { "Agent A": "UXXXXXXXX1", "Agent B": "UXXXXXXXX2" },
+  "seenStorePath": "./.state/sla-seen.json",
+  "seenTtlDays": 14
+}
